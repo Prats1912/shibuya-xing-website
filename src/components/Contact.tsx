@@ -114,13 +114,15 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
       details: [
-        "621/B, San-Jose, Indiranagar, Bangalore - 560038"
+        "621/B, San-Jose, 4th & 5th Floor",
+        "12th Main Road, HAL II Stage",
+        "Indiranagar, Bangalore - 560038"
       ]
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+91 9945972741"]
+      details: ["+91 98459 81651"]
     },
     {
       icon: <Mail className="w-6 h-6" />,

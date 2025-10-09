@@ -202,7 +202,7 @@ const Hero = () => {
                 {/* Mobile CTA Button - Perfectly centered */}
                 <div className="mb-8 flex justify-center">
                   <a 
-                    href="https://order.tmbill.com/outlet/26084511970566/ReserveTable"
+                    href="https://tinyurl.com/ymk52b7l"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-[#b91c1c] to-[#7f1d1d] hover:from-[#7f1d1d] hover:to-[#b91c1c] text-white px-6 py-2.5 rounded-full text-base font-bold shadow-lg transition-all duration-300 font-heading tracking-wide transform hover:scale-105 active:scale-95"
@@ -293,7 +293,7 @@ const Hero = () => {
                 {/* Desktop Button - Perfectly centered */}
                 <div className="mb-5 flex justify-center">
                   <a 
-                    href="https://order.tmbill.com/outlet/26084511970566/ReserveTable"
+                    href="https://tinyurl.com/ymk52b7l"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-[#b91c1c] to-[#7f1d1d] hover:from-[#7f1d1d] hover:to-[#b91c1c] text-white px-8 py-3 rounded-full text-lg font-bold shadow-lg transition-all duration-300 font-heading tracking-wide transform hover:scale-105 active:scale-95"
