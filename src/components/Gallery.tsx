@@ -8,27 +8,39 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 const images = [
   {
-    url: "Interior1.svg",
+    url: "DSC_0015.jpg",
     caption: "Interior View 1"
   },
   {
-    url: "Interior2.svg",
+    url: "DSC_0756.jpg",
     caption: "Interior View 2"
   },
   {
-    url: "Interior3.svg",
+    url: "DSC_0840.jpg",
     caption: "Interior View 3"
   },
   {
-    url: "Interior4.svg",
+    url: "DSC_0933.jpg",
     caption: "Interior View 4"
   },
   {
-    url: "Interior5.svg",
+    url: "DSC_0962.jpg",
     caption: "Interior View 5"
   },
   {
-    url: "Interior6.svg",
+    url: "DSC_0950.jpg",
+    caption: "Interior View 6"
+  },
+  {
+    url: "DSC_1978.jpg",
+    caption: "Interior View 6"
+  },
+  {
+    url: "DSC_1982.jpg",
+    caption: "Interior View 6"
+  },
+  {
+    url: "DSC_2007.jpg",
     caption: "Interior View 6"
   }
 ];
