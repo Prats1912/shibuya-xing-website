@@ -267,11 +267,11 @@ const Gallery = () => {
 
         {/* Featured Image Display */}
         <div ref={mainImageRef} className="relative mb-8">
-          <div className="relative h-96 md:h-[500px] overflow-hidden rounded-lg shadow-2xl">
+          <div className="relative h-[500px] md:h-[600px] overflow-hidden rounded-lg shadow-2xl bg-black/10">
             <img
               src={images[currentImage].url}
               alt={images[currentImage].caption}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             
             {/* Decorative corner elements */}
