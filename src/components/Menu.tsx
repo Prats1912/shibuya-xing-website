@@ -8,8 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const categories = [
   { id: 'signature', name: 'Menu Favourites', icon: <Star className="w-5 h-5" /> },
   { id: 'spicy', name: 'Signature Dishes', icon: <Flame className="w-5 h-5" /> },
-  { id: 'liquor', name: 'Mocktails & Kombuchas', icon: <Leaf className="w-5 h-5" /> },
-  { id: 'pairing', name: 'Pairings', icon: <GlassWater className="w-5 h-5" /> }
+  { id: 'liquor', name: 'Mocktails & Kombuchas', icon: <Leaf className="w-5 h-5" /> }
 ];
 
 const menuCarousels = {
@@ -75,18 +74,6 @@ const menuCarousels = {
       description: "A refreshing mocktail using a CHOYA umeshu-inspired base, mixed with tonic water, soda, and a lemon peel",
       images: ["/wine2.jpg"]
     }
-  ],
-  pairing: [
-    {
-      name: "Kombucha and Korean fried chicken",
-      description: "A curated kombucha pairing to complement your Pan-Asian dining experience.",
-      images: ["/wine3-Pairing.jpg"]
-    },
-    {
-      name: "Mocktail and sushi",
-      description: "Experience exquisite sushi flavours with the refreshing taste of our house mocktails",
-      images: ["/Wineandsushi.jpg"]
-    },
   ]
 };
 
@@ -390,7 +377,7 @@ const Menu = () => {
             Delight in our heartfelt Culinary artistry
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map(cat => (
             <CarouselColumn
               key={cat.id}
