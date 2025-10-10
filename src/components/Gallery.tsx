@@ -32,10 +32,6 @@ const images = [
     caption: "Interior View 6"
   },
   {
-    url: "DSC_1978.jpg",
-    caption: "Interior View 6"
-  },
-  {
     url: "DSC_1982.jpg",
     caption: "Interior View 6"
   },
