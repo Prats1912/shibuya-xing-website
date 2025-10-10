@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const categories = [
   { id: 'signature', name: 'Menu Favourites', icon: <Star className="w-5 h-5" /> },
   { id: 'spicy', name: 'Signature Dishes', icon: <Flame className="w-5 h-5" /> },
-  { id: 'liquor', name: 'Wine Cocktails', icon: <Leaf className="w-5 h-5" /> },
+  { id: 'liquor', name: 'Mocktails & Kombuchas', icon: <Leaf className="w-5 h-5" /> },
   { id: 'pairing', name: 'Pairings', icon: <GlassWater className="w-5 h-5" /> }
 ];
 
@@ -61,30 +61,30 @@ const menuCarousels = {
   ],
   liquor: [
     {
-      name: "Yuzu Wine",
-      description: "A blend of sake or white wine infused with yuzu, a tart Japanese citrus fruit, offering a sweet-tart balance perfect for pairing with food.",
+      name: "Yuzu Kombucha",
+      description: "A refreshing house made kombucha infused with yuzu, a tart Japanese citrus fruit, offering a sweet-tart balance perfect for pairing with food.",
       images: ["/pexels-olenkabohovyk-3323682.jpg"]
     },
     {
-      name: "Sake Champagne Mojito",
-      description: "A smooth cocktail created with sake, champagne, mint leaves, and lime juice for a refreshing taste",
+      name: "Sparkling Mint Mocktail",
+      description: "A smooth mocktail created with sparkling water, fresh mint leaves, and lime juice for a refreshing taste",
       images: ["/wine1.jpg"]
     },
     {
-      name: "Choya Sonic!",
-      description: "A refreshing cocktail using a CHOYA umeshu base, mixed with tonic water, soda, and a lemon peel",
+      name: "Choya Sonic Mocktail!",
+      description: "A refreshing mocktail using a CHOYA umeshu-inspired base, mixed with tonic water, soda, and a lemon peel",
       images: ["/wine2.jpg"]
     }
   ],
   pairing: [
     {
-      name: "Wine and Korean fried chicken",
-      description: "A curated wine pairing to complement your Pan-Asian dining experience.",
+      name: "Kombucha and Korean fried chicken",
+      description: "A curated kombucha pairing to complement your Pan-Asian dining experience.",
       images: ["/wine3-Pairing.jpg"]
     },
     {
-      name: "Wine and sushi",
-      description: "Experience exquisite sushi flavours with the subte warmth of the wine",
+      name: "Mocktail and sushi",
+      description: "Experience exquisite sushi flavours with the refreshing taste of our house mocktails",
       images: ["/Wineandsushi.jpg"]
     },
   ]
