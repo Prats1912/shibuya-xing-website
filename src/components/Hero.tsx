@@ -223,7 +223,7 @@ const Hero = () => {
                 >
                   <p className="flex items-center justify-center">
                     <span className="mr-2 text-[#d4af37] text-base">📍</span>
-                    <span className="text-base">621/B, San-Jose, Indiranagar</span>
+                    <span className="text-base">621/B, San-Jose 4th and 5th floor, Indiranagar 12th main road</span>
                   </p>
                   <p className="flex items-center justify-center">
                     <span className="mr-2 text-[#d4af37] text-base">🕒</span>
@@ -314,7 +314,7 @@ const Hero = () => {
                 >
                   <p className="flex items-center justify-center">
                     <span className="mr-3 text-[#d4af37] text-xl">📍</span>
-                    <span className="text-sm">621/B, San-Jose, Indiranagar</span>
+                    <span className="text-sm">621/B, San-Jose 4th and 5th floor, Indiranagar 12th main road</span>
                   </p>
                   <p className="flex items-center justify-center">
                     <span className="mr-3 text-[#d4af37] text-xl">🕒</span>

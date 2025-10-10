@@ -273,7 +273,6 @@ const Gallery = () => {
               alt={images[currentImage].caption}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#7f1d1d]/30 to-transparent"></div>
             
             {/* Decorative corner elements */}
             <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-[#b91c1c]"></div>
