@@ -310,8 +310,7 @@ const About = () => {
             >
               <h3 className="text-xl font-semibold mb-2 font-heading text-black">Vision and Mission</h3>
               <p style={{ fontFamily: 'AsianHiro, sans-serif' }}>
-                To be Bangalore's vibrant heart for authentic Pan-Asian flavours,
-                offering a delightful and memorable dining experience.
+                Inspired by Tokyo's Shibuya spirit, we unite people beyond borders — crafting experiences that transcend taste through tradition, elegance, and emotion.
               </p>
             </div>
           </div>
